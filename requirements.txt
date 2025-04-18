@@ -1,4 +1,5 @@
 streamlit
+streamlit_cookies_manager
 pandas
 numpy
 matplotlib
