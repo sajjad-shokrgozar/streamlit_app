@@ -89,7 +89,7 @@ else:
     col1, col2, col3 = st.columns([1, 1, 5])  # 1/6 of the row goes to selectbox
     with col1:
         selected_owner = st.selectbox("Choose an account", options=accounts, index=accounts.index(current_owner))
-    with col2:
+    with col2:tes
         selected_report_date = st.selectbox("Choose a date", options=report_date_list, index=report_date_list.index(current_report_date))
 
     if selected_owner != current_owner or selected_report_date != current_report_date:
